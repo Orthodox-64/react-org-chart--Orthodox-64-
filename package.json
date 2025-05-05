@@ -24,19 +24,19 @@
   "author": "UNICEF, based on work of Fouad Matin <m@fouad.org>",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.6.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^10.0.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1",
-    "faker": "^4.1.0",
-    "glob": "^7.1.2",
-    "lodash": "^4.17.5",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "rimraf": "^2.6.2",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.0"
+    "faker": "^6.6.6",
+    "glob": "^11.0.2",
+    "lodash": "^4.17.21",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "rimraf": "^6.0.1",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
   },
   "peerDependencies": {
     "d3": ">= 3.x < 4",
@@ -51,6 +51,6 @@
   },
   "dependencies": {
     "d3-save-svg": "0.0.2",
-    "jspdf": "^1.5.3"
+    "jspdf": "^3.0.1"
   }
 }
